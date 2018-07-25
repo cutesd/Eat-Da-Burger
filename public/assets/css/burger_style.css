@@ -1,4 +1,12 @@
 
+h1{
+    font-size: 63px;
+}
+
+.jumbotron{
+    padding: 2rem 2rem;
+}
+
 .card-header{
     text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
