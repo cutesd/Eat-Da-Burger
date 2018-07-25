@@ -1,5 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Luckiest+Guy');
+
+body{
+    font-family: "Comfortaa", sans-serif;
+}
+
 h1{
+    font-family: "Luckiest Guy", sans-serif;
     font-size: 63px;
 }
 
@@ -8,5 +15,14 @@ h1{
 }
 
 .card-header{
+    font-family: "Luckiest Guy", sans-serif;
+    font-size: 2.25rem;
+    padding-top: 1.25rem;
     text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.list-group-item:nth-child(even){
+    background-color:whitesmoke;
 }
