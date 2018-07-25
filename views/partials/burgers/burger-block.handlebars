@@ -1,0 +1,9 @@
+
+<li class="list-group-item d-flex">
+    {{#if notdevoured}}
+    <span class="flex-grow-1">{{ id }}. {{ burger_name }}</span>
+    <button class="btn btn-danger btn-lg devBtn" data-id="{{id}}"><i class="fas fa-utensils"></i></button>
+    {{else}}
+    <span class="text-black-50 disabled">{{ id }}. {{ burger_name }}</span>
+    {{/if}}
+</li>
