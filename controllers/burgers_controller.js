@@ -1,11 +1,3 @@
-/*
-Inside the burgers_controller.js file, import the following:
-
-Express
-burger.js
-
-Create the router for the app, and export the router at the end of your file.
-*/
 
 var express = require("express");
 
@@ -37,19 +29,6 @@ router.put("/api/burgers/:id", (req, res) => {
         else res.status(200).end();
     });
 });
-
-
-// router.delete("/api/burgers/:id", (req, res) => {
-//     console.log("ROUTE DELETE", req.params.id);
-//     burger.delete(req.params.id, function (result) {
-//         if (result.changedRows == 0) {
-//             // If no rows were changed, then the ID must not exist, so 404
-//             return res.status(404).end();
-//         } else {
-//             res.status(200).end();
-//         }
-//     });
-// });
 
 
 module.exports = router;
